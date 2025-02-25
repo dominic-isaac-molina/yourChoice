@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>SNKRS </title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"/>
+    <style>
+    body {
+
+        font-family: Arial, sans-serif;
+        background-color: #fff;
+        margin: 0;
+        padding: 0;
+    }
+    .top-bar {
+        background-color: #fff;
+        color: black;
+    }
+    .top-bar a {
+  color: gray;
+  text-decoration: none;
+}
+    .logo-img {
+        max-height: 60px;
+        width: auto;
+      }
+    .navbar-brand {
+        display: none; 
+    }
+    .nav-link {
+        font-weight: 500;
+        margin: 0 20px;
+    }
+    .product-card {
+        border: 0;
+        text-align: center;
+    }
+    .product-card img {
+        width: 100%;
+        height: 420px; 
+        object-fit: cover;
+    }
+    .product-info {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .btn-notify {
+        background-color: #000;
+        color: #fff;
+        border: none;
+        padding: 6px 16px;
+        border-radius: 9999px;
+        font-size: 14px
+    }
+    </style>
+  </head>
+  <body>
+</head>
+<body>
+  <header class="top-bar border-bottom">
+    <div class="container d-flex justify-content-between align-items-center py-2">
+      <div>
+        <a href="#" class="d-inline-flex align-items-center text-nowrap">
+          <i class="bi bi-arrow-left me-1"></i> Visit Nike.com
+        </a>
+      </div>
+    <div class="container d-flex justify-content-end align-items-center py-2">
+      <a href="#" class="text-decoration-none me-3">Join / Log In</a>
+
+      <a href="#" class="text-decoration-none me-3">Help</a>
+
+      <a href="#" class="text-decoration-none me-3">
+        <i class="bi bi-cart"></i>
+      </a>
+      </a>
+      <a href="#" class="text-decoration-none d-flex align-items-center">
+        <i class="bi bi-geo-alt me-1"></i> United States
+        <i class="bi bi-caret-down-fill ms-1"></i>
+      </a>
+    </div>
+  </header>
+    <nav class="navbar navbar-expand-lg bg-white border-bottom">
+        <div class="container d-flex align-items-center justify-content-between">
+          <a class="navbar-brand d-flex align-items-center" href="#">
+            <img src="https://cdn.worldvectorlogo.com/logos/snkrs-mobile.svg" alt="SNKRS Logo" class="me-2 logo-img"/>
+          </a>
+          <button
+            class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+  
+          <div class="collapse navbar-collapse flex-grow-0 flex-lg-grow-1" id="mainNav" >
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Feed</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">In Stock</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Upcoming</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <main>
+      <section class="py-5">
+        <div class="container">
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-4">
+            <div class="col">
+              <div class="card product-card">
+                <img src="https://static.nike.com/a/images/t_prod_pc/w_960,c_limit,q_auto,f_auto/1e3398c1-cbff-422a-a214-7f25d5ed317f/nocta-air-force-1-pink-foam-cz8065-600-release-date.jpg"
+                  class="card-img-top"
+                  alt="Shoes"/>
+                <div class="card-body product-info">
+                    <div>
+                      <span class="text-muted small d-block">Pink Foam</span>
+                      <span class="fw-bold d-block">NOCTA Air Force 1</span>
+                    </div>
+                    <button class="btn btn-notify">Notify Me</button>
+                  </div>
+                  
+              </div>
+            </div>
+            <div class="col">
+              <div class="card product-card">
+                <img
+                  src="https://static.nike.com/a/images/t_prod_pc/w_960,c_limit,q_auto,f_auto/a90bd508-349f-46ad-a4b7-61896cc725d0/women-s-air-jordan-4-abundance-hv0823-003-release-date.jpg"
+                  class="card-img-top"
+                  alt="shoes"
+                />
+                <div class="card-body product-info">
+                    <div>
+                        <span class="text-muted small d-block">Abundance</span>
+                        <span class="fw-bold d-block">Women's Air Force 4</span>
+                      </div>
+                  <button class="btn btn-notify">Notify Me</button>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card product-card">
+                <img
+                  src="https://static.nike.com/a/images/t_prod_pc/w_960,c_limit,q_auto,f_auto/5dc069d6-ffdb-471b-ad5b-1fbe21936a40/air-jordan-12-black-and-varsity-red-ct8013-002-release-date.jpg"
+                  class="card-img-top"
+                  alt="shoes"
+                />
+                <div class="card-body product-info">
+                    <div>
+                        <span class="text-muted small d-block">Black and Varsity Red</span>
+                        <span class="fw-bold d-block">Air Jordan 12</span>
+                      </div>
+                  <button class="btn btn-notify">Notify Me</button>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card product-card">
+                <img
+                  src="https://static.nike.com/a/images/t_prod_pc/w_960,c_limit,q_auto,f_auto/0f75e116-72ed-49c7-bd29-ad15f8a80140/total-90-metallic-silver-and-black-hj9351-002-release-date.jpg"
+                  class="card-img-top"
+                  alt="shoes"
+                />
+                <div class="card-body product-info">
+                    <div>
+                        <span class="text-muted small d-block">Metallic Silver and Black</span>
+                        <span class="fw-bold d-block">Total 90</span>
+                      </div>
+                  <button class="btn btn-notify">Notify Me</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-4 mt-4">
+            <div class="col">
+              <div class="card product-card">
+                <img
+                  src="https://static.nike.com/a/images/w_960,c_limit,q_auto,f_auto/b39eb70f-4bab-4dc3-8e3e-dae80e55cc29/street-snkrs-future-game.jpg"
+                  class="card-img-top"
+                  alt="Placeholder Shoe 5"
+                />
+                <div class="card-body product-info">
+       
+                  <button class="btn btn-notify">Learn More</button>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card product-card">
+                <img
+                  src="https://static.nike.com/a/images/w_960,c_limit,q_auto,f_auto/2ae91ee8-7865-46f2-853c-73169306a84a/this-week-in-snkrs-2-20-2-22.jpg"
+                  class="card-img-top"
+                  alt="Placeholder Shoe 6"
+                />
+                <div class="card-body product-info">
+  
+                  <button class="btn btn-notify">Learn More</button>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card product-card">
+                <img
+                  src="https://static.nike.com/a/images/w_960,c_limit,q_auto,f_auto/a47dcb18-1241-4764-b4fa-b04d534c500a/street-snkrs-air-foamposite-one-galaxy-party.jpg"
+                  class="card-img-top"
+                  alt="Placeholder Shoe 7"
+                />
+                <div class="card-body product-info">
+  
+                  <button class="btn btn-notify">Learn More</button>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card product-card">
+                <img
+                  src="https://static.nike.com/a/images/w_960,c_limit,q_auto,f_auto/eb55cc32-1538-444a-b983-d4750ecaae7e/the-drop-off-air-foamposite-one-galaxy.jpg"
+                  class="card-img-top"
+                  alt="Placeholder Shoe 8"
+                />
+                <div class="card-body product-info">
+                  <button class="btn btn-notify">Learn More</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    ></script>
+  </body>
+</html>
